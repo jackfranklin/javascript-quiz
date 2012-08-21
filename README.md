@@ -6,6 +6,10 @@ Note: The intent of this quiz isn't to be a brain-buster. It is meant for recrui
 
 01. When might comparative type coercion occur? How would you avoid it? How would you change a "falsey" or "truthy" value into a real boolean?
 
+* When using `==`, type coercion may occur.
+* To avoid comparative type coercion, use `===`.
+* To change a "falsey"/"truthy" into its real value, use !!. For example: `!!foo.bar()`
+
 02. Describe how variable scope works. Explain how to create a closure, using a self-executing anonymous function (also called IIFE: immediately-invoked function expression).
 
 03. Explain briefly how prototypical inheritance differs from class-based, "classical" inhericance.
